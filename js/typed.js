@@ -92,6 +92,10 @@
         this.shuffle = this.options.shuffle;
         // the order of strings
         this.sequence = [];
+        
+        this.rtl = this.options.rtl ? this.options.rtl : false;
+        
+        console.log(this.rtl);
 
         // All systems go!
         this.build();
